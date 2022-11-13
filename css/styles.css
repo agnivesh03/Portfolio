@@ -186,20 +186,6 @@ a:hover{
   }
 }
 
-.loader{
-  padding: 5px;
-  width: calc(100% - 0px);
-  height: calc(100% - 0px);
-  border: 3px solid #0092CA;
-  border-radius: 50%;
-  border-bottom: 3px solid #0092CA;
-  border-top: 3px solid #0092CA;
-  animation: rotate 5s linear infinite;
-}
-
-@keyframes rotate{
-  100%{transform: rotate(360deg); }
-}
 
 
 .wac{
@@ -224,14 +210,6 @@ a:hover{
   margin-right: 30px;
 }
 
-#circle{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50% , -50%);
-  width: 120px;
-  height: 120px;
-}
 
 
 
