@@ -186,10 +186,12 @@ a:hover{
   }
 }
 
-
-
 .wac{
   color: white;
+}
+
+.col-sm-12{
+  padding: 15px 15px;
 }
 /*******************Id Selection****************/
 
