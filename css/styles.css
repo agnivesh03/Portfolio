@@ -1,7 +1,7 @@
 body{
   margin: 0;
   text-align: center;
-  font-family:Roboto Mono;
+  font-family:Source Serif Pro;
   color: #444444;
 }
 
@@ -16,7 +16,7 @@ h1{
 
 }
 h2{
-  font-family: Roboto Mono, sans-serif;
+  font-family: Source Serif Pro, sans-serif;
   color : #0092CA ;
   font-weight: normal;
   padding-bottom: 10px;
@@ -114,10 +114,10 @@ a:hover{
   text-align: left;
 }
 .web{
-  width: 36%;
+  width: 35%;
   float: left;
-  margin-right: 150px;
-  padding-right: 50px;
+  margin-right: 90px;
+  padding-right: 40px;
 }
 .photo{
   width: 25%;
@@ -186,12 +186,26 @@ a:hover{
   }
 }
 
+
+
+
 .wac{
   color: white;
 }
 
 .col-sm-12{
   padding: 15px 15px;
+}
+
+.link{
+  color: black;
+}
+
+.pro{
+  width: 45%;
+  float: left;
+  margin-right: 90px;
+  padding-right: 40px;
 }
 /*******************Id Selection****************/
 
@@ -211,6 +225,7 @@ a:hover{
   float: right;
   margin-right: 30px;
 }
+
 
 
 
