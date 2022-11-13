@@ -1,0 +1,237 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family:Roboto Mono;
+  color: #444444;
+}
+
+
+
+h1{
+  font-size: 4rem;
+  margin-top: 50px;
+  font-family: Tangerine;
+  color : #0092CA ;
+  -webkit-text-stroke: 0.3vw #383d52;
+
+}
+h2{
+  font-family: Roboto Mono, sans-serif;
+  color : #0092CA ;
+  font-weight: normal;
+  padding-bottom: 10px;
+  font-size: 3rem;
+
+
+}
+
+h3{
+
+  color : #0092CA ;
+  font-size: 2rem;
+}
+h4{
+  color : #0092CA ;
+  font-size: 2rem;
+}
+p{
+  font-size: 20px;
+  line-height: 2;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #CAF0F8;
+  border-width: 5px;
+  width: 10%;
+  margin: 50px auto;
+}
+
+a{
+  color: #32C1CD;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#E8F0F2;
+}
+
+
+/*******************Class Selection****************/
+.top-container{
+  background-color: #CAF0F8;
+  position: relative;
+  padding-top: 20px;
+}
+.mount{
+  width: 30%;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container{
+  background-color: #90E0EF;
+  position: absolute;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.intro{
+  width:50%;
+  margin: auto;
+  text-align: center;
+}
+
+.outro{
+  width: 40%;
+  margin: auto;
+}
+.head{
+  font-size: 5rem;
+  color : #0092CA ;
+  font-weight: normal;
+  font-family: Tangerine;
+  
+}
+
+.botcloud{
+  position: relative;
+}
+.tocloud{
+  position:absolute;
+}
+
+.footer-link{
+  color : #0092CA ;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.web{
+  width: 36%;
+  float: left;
+  margin-right: 150px;
+  padding-right: 50px;
+}
+.photo{
+  width: 25%;
+  float: right;
+  margin-right: 90px;
+  margin-top: 70px;
+}
+
+
+.copy-right{
+  color: rgb(0, 0, 0);
+  padding: 10px 0;
+  font-size: 1rem;
+}
+
+.dev{
+  width: 20%;
+}
+
+.self{
+  image-resolution: 200%;
+  width: 25%;
+  border-radius: 25%;
+}
+
+.git{
+  width: 2%;
+}
+
+.navbar{
+  background-color: #CAF0F8;
+}
+ 
+.blink{
+  animation:blink 2s linear infinite;
+  color: #ffffff;
+}
+@keyframes blink{
+  0%{opacity: 0;}
+  20%{opacity: .2;}
+  40%{opacity: .4;}
+  60%{opacity : .6;}
+  80%{opacity : .8;}
+  100%{opacity : 1;}
+}
+
+.text{
+  font-size: 5rem;
+  color : #0092CA ;
+  font-weight: normal;
+  font-family: Tangerine;
+  animation: text 3s 1;
+}
+@keyframes text {
+  0% {
+    color: black;
+    margin-bottom: -10px;
+  }
+
+  30% {
+    letter-spacing: 20px;
+  }
+
+  85% {
+    letter-spacing: 10px;
+  }
+}
+
+.loader{
+  padding: 5px;
+  width: calc(100% - 0px);
+  height: calc(100% - 0px);
+  border: 3px solid #0092CA;
+  border-radius: 50%;
+  border-bottom: 3px solid #0092CA;
+  border-top: 3px solid #0092CA;
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate{
+  100%{transform: rotate(360deg); }
+}
+
+
+.wac{
+  color: white;
+}
+/*******************Id Selection****************/
+
+#box1{
+  position:absolute;
+  right: 200px;
+  top: 70px;
+}
+#box2{
+  position: absolute;
+  left: 200px;
+  bottom: 400px;
+}
+
+#skill{
+  width: 40%;
+  float: right;
+  margin-right: 30px;
+}
+
+#circle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 120px;
+  height: 120px;
+}
+
+
+
